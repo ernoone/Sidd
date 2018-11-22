@@ -1,0 +1,39 @@
+.accordion {
+  background-color: #fff;
+  padding: 45px 0;
+  font-size: 30px;
+  line-height: 1;
+  color: #000;
+  font-weight: 100;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #e8e8e8;
+  border-width: 1px 0;
+  outline: none;
+  transition:all 0.4s;
+  display: flex;
+  align-items: center;
+  .arrow{
+    width: 28px;
+    height: 28px;
+    background: url("../images/svg/arrow8.svg") no-repeat;
+    margin-right: 20px;
+    transition:all 0.4s;
+  }
+  &:hover{
+    .arrow{background: url("../images/svg/arrow8_hover.svg") no-repeat;}
+  }
+  &.active{
+    border-bottom: 0;
+    .arrow{
+      background: url("../images/svg/arrow7.svg") no-repeat;
+    }
+  }
+}
+.panel {
+  padding: 0 20px 50px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}

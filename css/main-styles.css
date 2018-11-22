@@ -1830,6 +1830,41 @@ form {
     .born-section .arrows-nav-btn .next-btn {
       display: block; }
 
+.accordion {
+  background-color: #fff;
+  padding: 45px 0;
+  font-size: 30px;
+  line-height: 1;
+  color: #000;
+  font-weight: 100;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #e8e8e8;
+  border-width: 1px 0;
+  outline: none;
+  transition: all 0.4s;
+  display: flex;
+  align-items: center; }
+  .accordion .arrow {
+    width: 28px;
+    height: 28px;
+    background: url("../images/svg/arrow8.svg") no-repeat;
+    margin-right: 20px;
+    transition: all 0.4s; }
+  .accordion:hover .arrow {
+    background: url("../images/svg/arrow8_hover.svg") no-repeat; }
+  .accordion.active {
+    border-bottom: 0; }
+    .accordion.active .arrow {
+      background: url("../images/svg/arrow7.svg") no-repeat; }
+
+.panel {
+  padding: 0 20px 50px;
+  background-color: white;
+  display: none;
+  overflow: hidden; }
+
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
   .hero-section-slide {
     background: url("../images/hero-img-1@2x.jpg") no-repeat center center; } }
