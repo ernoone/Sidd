@@ -120,3 +120,62 @@
     }
   }
 }
+
+.filter-select{
+  padding: 10px 70px 10px 15px;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  &:after{
+    content: '\e902';
+    position: absolute;
+    top: 14px;
+    right: 50px;
+    font-family: 'moon';
+    font-size: 12px;
+    color: #000;
+  }
+  &.open{
+    background-color: #eff0f1;
+    &:after{
+      content: "\e903";
+      position: absolute;
+      right: 50px;
+      top: 14px;
+      font-family: 'moon';
+      font-size: 12px;
+      color: #000;
+    }
+    .list{
+      display: block;
+    }
+  }
+  &:hover{
+    &:after{
+      color: rgba(0,0,0, 0.8);
+    }
+  }
+  .list{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    width: 143px;
+    padding: 0 15px 10px;
+    list-style: none;
+    display: none;
+    background-color: #eff0f1;
+    z-index: 5;
+    li{
+      margin-bottom: 26px;
+      &:first-child{
+        padding-top: 16px;
+      }
+      &:last-child{margin-bottom: 0;}
+      &:hover{
+        cursor: pointer;
+        color: rgba(0,0,0, 0.8);
+      }
+    }
+  }
+}

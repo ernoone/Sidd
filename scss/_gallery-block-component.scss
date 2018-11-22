@@ -66,3 +66,46 @@
     }
   }
 }
+
+.carousel-section{
+  background-color: #eff0f1;
+  padding-bottom: 50px;
+  &.dark-theme{
+    background-color: #000;
+  }
+  figure{
+    margin: 0;
+    img{
+      //height: 22.181vw;
+    }
+  }
+  .owl-carousel{
+    .owl-stage-outer{width: 100vw;}
+    .owl-nav{
+      display: flex;
+      justify-content: center;
+      padding-top: 30px;
+      button.owl-next,
+      button.owl-prev{
+        background-color: transparent;
+        margin: 0 7px;
+        width: 55px;
+        height: 54px;
+        transition: all 0.5s;
+        outline: none;
+      }
+      button.owl-next{
+        background: url("../images/svg/arrow4.svg") no-repeat;
+        &:hover{
+          background: url("../images/svg/arrow4_hower.svg") no-repeat;
+        }
+      }
+      button.owl-prev{
+        background: url("../images/svg/arrow3.svg") no-repeat;
+        &:hover{
+          background: url("../images/svg/arrow3_hower.svg") no-repeat;
+        }
+      }
+    }
+  }
+}
