@@ -1782,6 +1782,8 @@ form {
 .carousel-section {
   background-color: #eff0f1;
   padding-bottom: 50px; }
+  .carousel-section.dark-theme {
+    background-color: #000; }
   .carousel-section figure {
     margin: 0; }
   .carousel-section .owl-carousel .owl-stage-outer {
@@ -1793,7 +1795,19 @@ form {
     .carousel-section .owl-carousel .owl-nav button.owl-next,
     .carousel-section .owl-carousel .owl-nav button.owl-prev {
       background-color: transparent;
-      margin: 0 7px; }
+      margin: 0 7px;
+      width: 55px;
+      height: 54px;
+      transition: all 0.5s;
+      outline: none; }
+    .carousel-section .owl-carousel .owl-nav button.owl-next {
+      background: url("../images/svg/arrow4.svg") no-repeat; }
+      .carousel-section .owl-carousel .owl-nav button.owl-next:hover {
+        background: url("../images/svg/arrow4_hower.svg") no-repeat; }
+    .carousel-section .owl-carousel .owl-nav button.owl-prev {
+      background: url("../images/svg/arrow3.svg") no-repeat; }
+      .carousel-section .owl-carousel .owl-nav button.owl-prev:hover {
+        background: url("../images/svg/arrow3_hower.svg") no-repeat; }
 
 .big-img-section {
   margin: 0;
