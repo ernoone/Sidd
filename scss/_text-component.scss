@@ -1,0 +1,140 @@
+.text-section{
+  background-color: #eff0f1;
+  padding: 40px 0;
+  line-height: 1.2;
+  color: rgba(0,0,0, 0.8);
+  &:first-child{
+    padding-top: 80px;
+  }
+}
+
+.list-default{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  &.two-column{
+    columns: 2;
+    column-gap: 85px;
+  }
+  li{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 11px;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 8px;
+      left: 18px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background-color:  rgba(0,0,0, 0.8);
+    }
+  }
+}
+
+.img-description-section{
+  .img-description{
+    display: flex;
+    justify-content: space-between;
+    &.reverse{
+      flex-direction: row-reverse;
+    }
+    .text-block{
+      width: 36.969vw;
+      //height: 34.919vw;
+      padding: 15px 90px 90px;
+      background-color: #fff;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      i{
+        margin-bottom: 30px;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+    .img-wrap{
+      margin: 0;
+      width: 63.177vw;
+      //height: 34.919vw;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.blockquote{
+  margin: 0 0 40px;
+  padding: 10px 17px 10px 22px;
+  background-color: #eff0f1;
+  position: relative;
+  font-size: 20px;
+  line-height: 1.2;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    background-color: #000;
+  }
+}
+
+.iframe-wrap{
+  width: 755px;
+  height: 425px;
+  margin: 40px auto;
+  iframe{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+}
+
+.header-section{
+  padding: 50px 0;
+  h3{
+    margin-bottom: 35px;
+  }
+}
+
+.carousel-section{
+  background-color: #eff0f1;
+  padding-bottom: 50px;
+  figure{
+    margin: 0;
+    img{
+      //height: 22.181vw;
+    }
+  }
+  .owl-carousel{
+    .owl-stage-outer{width: 100vw;}
+    .owl-nav{
+      display: flex;
+      justify-content: center;
+      padding-top: 30px;
+      button.owl-next,
+      button.owl-prev{
+        background-color: transparent;
+        margin: 0 7px;
+      }
+    }
+  }
+}
+
+.big-img-section{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 42.752vw;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}

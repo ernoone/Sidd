@@ -1,0 +1,47 @@
+.timer-section{
+  padding: 52px 0;
+  height: 18.887vw;
+  background: url("../images/img-6.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  h3{
+    margin-bottom: 30px;
+    a{
+      font-weight: 100;
+      color: #fff;
+    }
+  }
+  .timer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .item{
+      font-size: 5.124vw;
+      font-weight: 100;
+      padding-right: 52px;
+      line-height: 1;
+      position: relative;
+      &:after{
+        content: ':';
+        position: absolute;
+        top: 30px;
+        right: 15px;
+        font-size: 5.124vw;
+        font-weight: 100;
+        color: #fff;
+        transform: translate(-50%,-50%);
+      }
+      &:last-child{
+        padding-right: 0;
+        &:after{display: none;}
+      }
+      .count{
+        position: relative;
+      }
+      .timer-label{
+        margin-top: 30px;
+        font-size: 1.244vw;
+      }
+    }
+  }
+}

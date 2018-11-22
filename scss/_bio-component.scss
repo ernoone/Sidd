@@ -1,0 +1,34 @@
+.born-section{
+  background-color: #eff0f1;
+  padding-bottom: 90px;
+  .born-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .born-text{
+    padding: 90px 90px 0 ;
+    h2{
+      margin-bottom: 45px;
+    }
+  }
+  .img-wrap{
+    margin: 0;
+  }
+  .col{
+    position: relative;
+    &:last-child{
+      padding-bottom: 128px;
+    }
+  }
+  .arrows-nav-btn{
+    bottom: 50px;
+    left: 0;
+    width: 124px;
+    display: flex;
+    justify-content: space-between;
+    .prev-btn,
+    .next-btn{
+      display: block;
+    }
+  }
+}

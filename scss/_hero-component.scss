@@ -1,0 +1,206 @@
+.hero-outer{
+  position: relative;
+  &.bio{
+    .hero-section{
+      height: 39.714vw;
+    }
+    .hero-section-slide{
+      height: 39.714vw;
+    }
+    .hero-section-slide-content{
+      height: 39.714vw;
+      align-items: flex-end;
+    }
+  }
+}
+.hero-section{
+ // margin-top: -100px;
+  height: 54.904vw;
+  position: relative;
+  .slick-arrow{
+    right: 91px;
+    bottom: 30px;
+  }
+
+  .slick-next{
+    background: transparent url("../images/svg/arrow4.svg") no-repeat;
+    width: 54px;
+    height: 54px;
+    background-size: 54px 54px;
+    &:hover{
+      background: transparent url("../images/svg/arrow4_hower.svg") no-repeat;
+    }
+  }
+  .slick-prev{
+    right: 155px;
+    background: transparent url("../images/svg/arrow3.svg") no-repeat;
+    width: 54px;
+    height: 54px;
+    background-size: 54px 54px;
+    &:hover{
+      background: transparent url("../images/svg/arrow3_hower.svg") no-repeat;
+    }
+  }
+}
+.hero-section-slide{
+  height: 54.904vw;
+  outline: none;
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 44%, rgba(0,0,0,0) 52%, rgba(0,0,0,0.65) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 44%,rgba(0,0,0,0) 52%,rgba(0,0,0,0.65) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 44%,rgba(0,0,0,0) 52%,rgba(0,0,0,0.65) 100%);
+    z-index: 1;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.hero-section-slide-content{
+  height: 54.904vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  h2{
+    margin-bottom: 20px;
+  }
+  h3{
+    margin-bottom: 40px;
+  }
+  .btn{
+    background-color: transparent;
+    border-color: #918480;
+    margin-bottom: 16px;
+    color: #fff;
+    &:hover{
+      background-color: #fff;
+      border-color: #fff;
+      color: #000;
+    }
+  }
+  .link{
+    font-size: 17px;
+  }
+}
+
+$count: 10;
+$time: 2; //in seconds
+$size: 100;
+$color: #ffffff;
+
+@keyframes rotatePreloader {
+  0% {
+    transform: translateX(-50%) translateY(-50%) rotateZ(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotateZ(-360deg);
+  }
+}
+
+.preloader{
+  width: $size + px;
+  height: $size + px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  animation: rotatePreloader $time + s infinite ease-in;
+  z-index: 2;
+  div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 10%;
+      height: 10%;
+      background-color: $color;
+      transform: translateX(-50%);
+      border-radius: 50%;
+    }
+  }
+}
+
+.hero-section-small{
+  height: 26.793vw;
+  position: relative;
+  .container-m-middle{
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .hero-section-description{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 26.793vw;
+    z-index: 2;
+    .big-title{
+      font-size: 155px;
+      line-height: 1;
+      font-weight: 100;
+      color: #543f3a;
+      margin-bottom: 45px;
+      margin-left: 17%;
+    }
+    .sub-title{
+      margin-left: 62px;
+    }
+  }
+}
+
+@for $i from 1 through $count {
+  .preloader div:nth-child(#{$i}) {
+    transform: rotateZ(((360 / $count) * ($i - 1)) + deg);
+    animation: rotateCircle + $i $time + s infinite linear;
+    z-index: $count - $i;
+  }
+  @keyframes rotateCircle#{$i} {
+    #{percentage(((50 / $count) * ($i - 1)) / 100)} {
+      opacity: 0;
+    }
+    #{percentage((((50 / $count) + 0.0001) * ($i - 1)) / 100)} {
+      opacity: 1;
+      transform: rotateZ((0 - ((360 / $count) * ($i - 2))) + deg);
+    }
+    #{percentage((((50 / $count) * ($i - 0)) + 2) / 100)} {
+      transform: rotateZ((0 - ((360 / $count) * ($i - 1))) + deg);
+    }
+    #{percentage(((50 + ((50 / $count) * ($i - 0))) + 2) / 100)} {
+      transform: rotateZ((0 - ((360 / $count) * ($i - 1))) + deg);
+    }
+    100% {
+      transform: rotateZ((0 - ((360 / $count) * ($count - 1))) + deg);
+      opacity: 1;
+    }
+  }
+}

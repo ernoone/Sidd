@@ -1,0 +1,137 @@
+.comment-outer{
+  background-color: #eff0f1;
+  padding: 80px 0;
+  .header-comment-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    h3{
+      font-weight: 100;
+      margin-right: 18px;
+    }
+  }
+  .comment-label{
+    padding: 8px 16px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    .link{
+      font-size: 17px;
+      color: #fff;
+    }
+  }
+}
+
+.comment-block{
+  .comment-item{
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    color: rgba(0,0,0, 0.8);
+    &.lavel-1{
+      padding-left: 66px;
+    }
+    .comment-head{
+      position: relative;
+      margin-bottom: 23px;
+      .replay-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 15px;
+        color: #000;
+        &:hover{
+          color: rgba(0,0,0, 0.8);
+        }
+      }
+    }
+    .name{
+      font-size: 18px;
+      line-height: 1;
+      color: #000;
+      margin-bottom: 2px;
+    }
+    time{
+      font-size: 15px;
+    }
+  }
+}
+
+.comment-form{
+  padding: 53px 58px;
+  background-color: #fff;
+  .comment-form-header{
+    margin-bottom: 48px;
+    h3{
+      font-weight: 100;
+      line-height: 1;
+      margin-bottom: 2px;
+    }
+    .hint{
+      font-size: 15px;
+      color: #a8a8a8;
+    }
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+  }
+  .field-wrap{
+    width: 33.3%;
+    margin-right: 58px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  input,
+  textarea{
+    width: 100%;
+    padding: 17px 0;
+    border: 0;
+    border-bottom: 1px solid #b2b2b2;
+    @include placeholder{
+      font-family: $main-font-family;
+      font-size: 17px;
+      color: rgba(0,0,0, 0.5);
+    }
+  }
+}
+
+form{
+  width: 100%;
+  .field-wrap{
+    position: relative;
+    &.error{
+      .error-message{display: block;}
+    }
+    .error-message{
+      position: absolute;
+      bottom: -17px;
+      right: 0;
+      font-size: 12px;
+      color: #d50000;
+      display: none;
+    }
+  }
+  input,
+  textarea{
+    width: 100%;
+    outline: none;
+    @include placeholder{
+      font-family: $main-font-family;
+      font-size: 17px;
+      color: rgba(0,0,0, 0.5);
+    }
+  }
+  textarea{
+    resize: none;
+    margin-bottom: 17px;
+  }
+}

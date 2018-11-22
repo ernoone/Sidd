@@ -1,0 +1,122 @@
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}
+}
+
+@mixin placeholder-2 {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}
+}
+
+@include placeholder{
+  font-size: 17px;
+  color: rgba(0,0,0, 0.5);
+}
+
+@include placeholder-2{
+  font-size: 17px;
+  color: #fff;
+}
+
+.select-simple{
+  cursor: pointer;
+  padding: 10px 36px 10px 12px;
+  position: relative;
+  //transition: all 0.5s;
+  outline: none;
+  &:after{
+    content: "\e902";
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    font-family: 'moon';
+    font-size: 10px;
+    color: #000;
+  }
+  &.open{
+    background-color: #eff0f1;
+    &:after{
+      content: "\e903";
+      position: absolute;
+      right: 10px;
+      top: 17px;
+      font-family: 'moon';
+      font-size: 10px;
+      color: #000;
+    }
+    .list{
+      display: block;
+    }
+  }
+  &:hover{
+    &:after{
+      color: rgba(0,0,0, 0.8);
+    }
+  }
+  .list{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0 36px 10px 12px;
+    list-style: none;
+    display: none;
+    background-color: #eff0f1;
+    z-index: 5;
+    li:hover{
+      cursor: pointer;
+      color: rgba(0,0,0, 0.8);
+    }
+  }
+}
+
+.checkbox-item{
+  input[type="checkbox"]{
+    display: none;
+    &:checked{
+      + label{
+        &:after{
+          opacity: 1;
+          transform: scale(1);
+        }
+        &:before{border-color: #000;}
+      }
+    }
+  }
+  label{
+    position: relative;
+    padding-left: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    &:hover{
+      &:before{border-color: #000;}
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      top: 3px;
+      left: 0;
+      width: 15px;
+      height: 15px;
+      border: 1px solid #a7a8a8;
+      border-radius: 4px;
+      transition: all 0.5s;
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      top: 8px;
+      left: 5px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #000;
+      transition: all 0.5s;
+      opacity: 0;
+    }
+  }
+}

@@ -1,0 +1,121 @@
+.upcoming-events-section{
+  background-color: #eff0f1;
+  padding: 110px 0 137px;
+  .slick-arrow{
+    bottom: -17px;
+    right: 30%;
+    width: 55px;
+    height: 55px;
+    background-size: 55px 55px;
+  }
+  .slick-prev{
+    right: 35%;
+    background: url("../images/svg/arrow5_hover.svg") no-repeat;
+    &:hover{
+      background: url("../images/svg/arrow5.svg") no-repeat;
+    }
+  }
+  .slick-next{
+    background: url("../images/svg/arrow6_hover.svg");
+    &:hover{
+      background: url("../images/svg/arrow6.svg");
+    }
+  }
+  .header-wrapper{
+    margin-bottom: 109px;
+  }
+  .upcoming-events-wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1366px;
+    width: 100%;
+    @media screen and (min-width:1920px)  {
+      max-width: 1920px;
+    }
+    .upcoming-events-description{
+      padding-right: 90px;
+    }
+  }
+  .img-wrap{
+    position: relative;
+    width: 50vw;
+    height: 28.257vw;
+    margin: 0 8.345vw 0 0;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .upcoming-events-description{
+    width: 38.139vw;
+    .location{
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    h3{
+      margin-bottom: 16px;
+    }
+    .time-line{
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      font-size: 20px;
+      line-height: 1;
+      >*{
+        margin-right: 17px;
+        &:last-child{margin-right: 0;}
+      }
+    }
+    .btn{
+      padding: 7px 21px;
+      font-size: 14px;
+    }
+    .link{
+      padding-left: 152px;
+    }
+  }
+  .text-description{
+    font-size: 17px;
+    line-height: 1.2;
+    margin-bottom: 70px;
+    color: rgba(0,0,0, 0.8);
+  }
+  .events-list{
+    .upcoming-events-wrapper{
+      margin-bottom: 103px;
+      &:nth-child(even){
+        flex-direction: row-reverse;
+        .img-wrap{
+          margin: 0 0 0 8.345vw;
+        }
+        .label-big{
+          left: -100px;
+          right: 0;
+        }
+        .upcoming-events-description{
+          padding: 0 0 0 90px;
+        }
+      }
+    }
+  }
+}
+
+.label-big{
+  width: 200px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: -100px;
+  top: -60px;
+  background: #000;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+  border: 30px solid #eff0f1;
+  span{
+    font-size: 60px;
+  }
+}

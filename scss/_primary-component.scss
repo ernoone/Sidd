@@ -1,0 +1,28 @@
+.primary-section{
+  padding: 96px 0 20px;
+  background-color: #eff0f1;
+}
+
+.info-panel{
+  width: 74.158vw;
+  display: flex;
+  align-items: center;
+  margin: 70px auto 0;
+  font-size: 17px;
+  color: rgba(0,0,0, 0.8);
+  > *{
+    margin-right: 30px;
+  }
+  dl{
+    display: flex;
+    margin: 0;
+    dt{
+      color: #000;
+      margin-right: 10px;
+    }
+    dd{
+      margin:0 30px 0 0;
+      &:last-child{margin: 0;}
+    }
+  }
+}
