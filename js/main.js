@@ -26,6 +26,15 @@ $(document).ready(function(){
         speed: 500,
     });
 
+    $('.product-slide-wrapper-js').slick({
+        slidesToShow: 1,
+        variableWidth: false,
+        dots: true,
+        infinite: true,
+        arrows: false,
+        speed: 500,
+    });
+
     $('.currency-select-js').niceSelect();
     $('.select-js').niceSelect();
     $('.filter-select').niceSelect();
