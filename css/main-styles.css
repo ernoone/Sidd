@@ -2019,17 +2019,25 @@ form {
     font-size: 14px;
     transition: all 0.5s; }
 
-.product-wrapper {
-  display: flex;
+.product-section {
+  padding-top: 28px;
   background-color: #eff0f1;
   padding-bottom: 80px; }
+
+.product-wrapper {
+  display: flex; }
   .product-wrapper > * {
     width: 50%; }
   .product-wrapper .product-slide-wrapper {
     background-color: #fff;
     padding: 136px 60px; }
+    .product-wrapper .product-slide-wrapper.auto-height {
+      padding: 60px; }
+      .product-wrapper .product-slide-wrapper.auto-height img {
+        box-shadow: 0 24px 50px -16px rgba(0, 0, 0, 0.4); }
     .product-wrapper .product-slide-wrapper img {
-      width: 100%; }
+      width: 100%;
+      border-top: 1px solid rgba(255, 255, 255, 0.7); }
     .product-wrapper .product-slide-wrapper .slick-dots {
       left: 50%;
       transform: translateX(-50%); }
@@ -2040,6 +2048,9 @@ form {
 
 .product-description {
   padding: 0 80px 20px; }
+  .product-description h3 {
+    line-height: 1;
+    margin-bottom: 30px; }
 
 .back-to {
   font-size: 14px;
@@ -2052,11 +2063,17 @@ form {
   padding-bottom: 70px;
   margin-bottom: 60px;
   border-bottom: 1px solid #ddddde; }
+  .product-heading .sub-title {
+    font-size: 20px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 35px; }
   .product-heading .price {
     background-color: #000;
     padding: 10px 22px;
     font-size: 30px;
     line-height: 1;
+    font-weight: 100;
     color: #fff;
     position: absolute;
     bottom: -20px;
