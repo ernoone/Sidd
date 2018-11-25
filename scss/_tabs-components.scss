@@ -1,0 +1,28 @@
+.tabs-section{
+  background-color: #eff0f1;
+}
+.tabs-caption{
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.tabs-content {
+  padding: 50px 0;
+  background-color: #fff;
+  display: none;
+  &.active{
+    display: block;
+  }
+}
+
+.album-list{
+  display: flex;
+  background-color: #eff0f1;
+  margin: 0 -25px;
+  .item{
+    margin: 0 25px;
+    width: 25%;
+  }
+  .img-wrap{
+    position: relative;
+  }
+}

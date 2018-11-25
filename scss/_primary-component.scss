@@ -34,31 +34,32 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 37px;
-  .filter-switchers {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    li {
-      margin-right: 4px;
-      &:last-child{margin-right: 0;}
-      &.active{
-        span {box-shadow: 0 0 0 1px #a7a8a8;}
-      }
-      &:hover{
-        color: rgba(0,0,0, 0.7);
-      }
+}
+
+.filter-switchers {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  li {
+    margin-right: 4px;
+    &:last-child{margin-right: 0;}
+    &.active{
+      span {box-shadow: 0 0 0 1px #a7a8a8;}
     }
-    span {
-      cursor: pointer;
-      display: inline-block;
-      padding: 12px 23px;
-      transition: all 0.5s;
-      color: #000;
-      border-radius: 37px;
+    &:hover{
+      color: rgba(0,0,0, 0.7);
     }
+  }
+  span {
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 23px;
+    transition: all 0.5s;
+    color: #000;
+    border-radius: 37px;
   }
 }
 

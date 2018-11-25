@@ -982,28 +982,29 @@ section p {
   align-items: center;
   justify-content: space-between;
   margin-top: 37px; }
-  .filter-row .filter-switchers {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    font-size: 14px; }
-    .filter-row .filter-switchers li {
-      margin-right: 4px; }
-      .filter-row .filter-switchers li:last-child {
-        margin-right: 0; }
-      .filter-row .filter-switchers li.active span {
-        box-shadow: 0 0 0 1px #a7a8a8; }
-      .filter-row .filter-switchers li:hover {
-        color: rgba(0, 0, 0, 0.7); }
-    .filter-row .filter-switchers span {
-      cursor: pointer;
-      display: inline-block;
-      padding: 12px 23px;
-      transition: all 0.5s;
-      color: #000;
-      border-radius: 37px; }
+
+.filter-switchers {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px; }
+  .filter-switchers li {
+    margin-right: 4px; }
+    .filter-switchers li:last-child {
+      margin-right: 0; }
+    .filter-switchers li.active span {
+      box-shadow: 0 0 0 1px #a7a8a8; }
+    .filter-switchers li:hover {
+      color: rgba(0, 0, 0, 0.7); }
+  .filter-switchers span {
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 23px;
+    transition: all 0.5s;
+    color: #000;
+    border-radius: 37px; }
 
 .counter {
   font-size: 14px;
@@ -2033,10 +2034,10 @@ form {
 
 .grid-wrapper-2 {
   display: flex;
-  margin: 0 -25px; }
+  margin: 0 -40px; }
   .grid-wrapper-2 .col {
     width: 33.3%;
-    padding: 0 25px; }
+    padding: 0 40px; }
   .grid-wrapper-2 .item {
     margin-bottom: 65px; }
     .grid-wrapper-2 .item a {
@@ -2146,6 +2147,30 @@ form {
     font-size: 18px; }
     .btn-set > *:last-child {
       margin-right: 0; }
+
+.tabs-section {
+  background-color: #eff0f1; }
+
+.tabs-caption {
+  justify-content: center;
+  padding-bottom: 20px; }
+
+.tabs-content {
+  padding: 50px 0;
+  background-color: #fff;
+  display: none; }
+  .tabs-content.active {
+    display: block; }
+
+.album-list {
+  display: flex;
+  background-color: #eff0f1;
+  margin: 0 -25px; }
+  .album-list .item {
+    margin: 0 25px;
+    width: 25%; }
+  .album-list .img-wrap {
+    position: relative; }
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
   .hero-section-slide {
