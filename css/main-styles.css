@@ -569,6 +569,11 @@ section p {
         cursor: pointer;
         color: rgba(0, 0, 0, 0.8); }
 
+.filter-row-form {
+  display: flex;
+  align-items: center;
+  width: 80%; }
+
 .hero-outer .breadcrumb-outer .container {
   position: relative; }
 
@@ -1959,13 +1964,16 @@ form {
   display: none;
   overflow: hidden; }
 
-.grid-section {
+.grid-section,
+.grid-section-2 {
   padding: 95px 0;
   background-color: #fff;
   position: relative; }
-  .grid-section .preloader {
+  .grid-section .preloader,
+  .grid-section-2 .preloader {
     top: 90%; }
-    .grid-section .preloader div:before {
+    .grid-section .preloader div:before,
+    .grid-section-2 .preloader div:before {
       background-color: #000; }
 
 .grid-wrapper {
@@ -2014,6 +2022,55 @@ form {
     font-size: 20px;
     margin: 0 auto 20px; }
   .grid-wrapper .btn {
+    opacity: 0;
+    padding: 7px 22px;
+    font-size: 14px;
+    transition: all 0.5s; }
+
+.grid-section-2 {
+  background-color: #eff0f1;
+  padding: 65px 0; }
+
+.grid-wrapper-2 {
+  display: flex;
+  margin: 0 -25px; }
+  .grid-wrapper-2 .col {
+    width: 33.3%;
+    padding: 0 25px; }
+  .grid-wrapper-2 .item {
+    margin-bottom: 65px; }
+    .grid-wrapper-2 .item a {
+      display: block;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center; }
+      .grid-wrapper-2 .item a:hover .price,
+      .grid-wrapper-2 .item a:hover .btn {
+        opacity: 1; }
+      .grid-wrapper-2 .item a:hover .img-wrap:before {
+        opacity: 1; }
+  .grid-wrapper-2 .img-wrap {
+    margin: 0 0 25px;
+    position: relative; }
+    .grid-wrapper-2 .img-wrap:before {
+      content: '';
+      background-color: rgba(255, 255, 255, 0.5);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transition: all 0.5s;
+      opacity: 0;
+      z-index: 1; }
+    .grid-wrapper-2 .img-wrap img {
+      box-shadow: 0 24px 50px -16px rgba(0, 0, 0, 0.4); }
+  .grid-wrapper-2 .title {
+    display: block;
+    max-width: 280px;
+    font-size: 20px;
+    margin: 0 auto 20px; }
+  .grid-wrapper-2 .btn {
     opacity: 0;
     padding: 7px 22px;
     font-size: 14px;
