@@ -112,19 +112,23 @@
     background-color: transparent;
 }
 
-.owl-carousel{
+.owl-carousel,
+.album-list{
     .owl-nav{
         button.owl-next,
         button.owl-prev{
             background-color: transparent;
+            border: 0;
             font-size: 0;
+            outline: none;
         }
     }
 }
 
 .slick-next,
 .next-btn,
-.owl-carousel .owl-nav button.owl-next{
+.owl-carousel .owl-nav button.owl-next,
+.album-list .owl-nav button.owl-next{
     background-image: url("../images/svg/arrow6_hover.svg");
     background-repeat: no-repeat;
     width: 55px;
@@ -137,7 +141,8 @@
 
 .slick-prev,
 .prev-btn,
-.owl-carousel .owl-nav button.owl-prev{
+.owl-carousel .owl-nav button.owl-prev,
+.album-list .owl-nav button.owl-prev{
     background-image: url("../images/svg/arrow5_hover.svg");
     background-repeat: no-repeat;
     width: 55px;

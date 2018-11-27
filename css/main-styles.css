@@ -356,33 +356,41 @@ section p {
   background-color: transparent; }
 
 .owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev {
+.owl-carousel .owl-nav button.owl-prev,
+.album-list .owl-nav button.owl-next,
+.album-list .owl-nav button.owl-prev {
   background-color: transparent;
-  font-size: 0; }
+  border: 0;
+  font-size: 0;
+  outline: none; }
 
 .slick-next,
 .next-btn,
-.owl-carousel .owl-nav button.owl-next {
+.owl-carousel .owl-nav button.owl-next,
+.album-list .owl-nav button.owl-next {
   background-image: url("../images/svg/arrow6_hover.svg");
   background-repeat: no-repeat;
   width: 55px;
   height: 54px; }
   .slick-next:hover,
   .next-btn:hover,
-  .owl-carousel .owl-nav button.owl-next:hover {
+  .owl-carousel .owl-nav button.owl-next:hover,
+  .album-list .owl-nav button.owl-next:hover {
     background-image: url("../images/svg/arrow6.svg");
     background-repeat: no-repeat; }
 
 .slick-prev,
 .prev-btn,
-.owl-carousel .owl-nav button.owl-prev {
+.owl-carousel .owl-nav button.owl-prev,
+.album-list .owl-nav button.owl-prev {
   background-image: url("../images/svg/arrow5_hover.svg");
   background-repeat: no-repeat;
   width: 55px;
   height: 54px; }
   .slick-prev:hover,
   .prev-btn:hover,
-  .owl-carousel .owl-nav button.owl-prev:hover {
+  .owl-carousel .owl-nav button.owl-prev:hover,
+  .album-list .owl-nav button.owl-prev:hover {
     background-image: url("../images/svg/arrow5.svg");
     background-repeat: no-repeat; }
 
@@ -1595,21 +1603,10 @@ section p {
     position: absolute;
     top: 50%;
     right: -30px;
-    background-color: #fff;
     box-shadow: 0 0 0 22px #000;
     width: 67px;
     height: 67px;
-    transform: translateY(-50%);
-    font-size: 0; }
-    .video-section-2 .play-btn-2:before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 51%;
-      border-style: solid;
-      border-width: 13px 0 13px 25px;
-      border-color: transparent transparent transparent #000;
-      transform: translate(-50%, -50%); }
+    transform: translateY(-50%); }
   .video-section-2 .text-block {
     padding-left: 87px; }
   .video-section-2 .list-default {
@@ -1618,6 +1615,21 @@ section p {
       margin-bottom: 24px; }
       .video-section-2 .list-default li:before {
         background-color: #fff; }
+
+.play-btn-2 {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  font-size: 0; }
+  .play-btn-2:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    border-style: solid;
+    border-width: 13px 0 13px 25px;
+    border-color: transparent transparent transparent #000;
+    transform: translate(-50%, -50%); }
 
 .comment-outer {
   background-color: #eff0f1;
@@ -2164,13 +2176,64 @@ form {
 
 .album-list {
   display: flex;
-  background-color: #eff0f1;
-  margin: 0 -25px; }
+  margin: 0 -25px;
+  padding: 20px 0;
+  position: relative; }
+  .album-list .owl-stage {
+    display: flex; }
   .album-list .item {
-    margin: 0 25px;
-    width: 25%; }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer; }
+    .album-list .item:hover .img-wrap {
+      position: relative;
+      margin: 0 0 30px; }
+      .album-list .item:hover .img-wrap img {
+        transform: scale(1.5); }
+    .album-list .item.active {
+      padding: 20px 20px 51px;
+      background: #fff;
+      margin: -20px 0; }
+      .album-list .item.active .img-wrap {
+        width: 100%;
+        height: 100%; }
+        .album-list .item.active .img-wrap .play-btn-2 {
+          opacity: 1; }
   .album-list .img-wrap {
-    position: relative; }
+    position: relative;
+    margin: 0 0 30px;
+    overflow: hidden;
+    width: 281px;
+    height: 281px; }
+    .album-list .img-wrap img {
+      width: 100%;
+      height: 100%;
+      transition: transform .5s; }
+    .album-list .img-wrap .play-btn-2 {
+      opacity: 0;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: #fff; }
+      .album-list .img-wrap .play-btn-2:before {
+        border-width: 8px 0 8px 14px; }
+  .album-list .title {
+    max-width: 180px;
+    text-align: center; }
+  .album-list .owl-nav {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -118px;
+    left: 25px; }
+
+.album-list-wrapper {
+  background-color: #eff0f1; }
+
+.iframe-wrapper {
+  padding: 50px 0; }
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
   .hero-section-slide {

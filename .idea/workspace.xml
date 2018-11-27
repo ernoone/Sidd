@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e5b740-0ac4-461f-9dd4-ffcabf273ec2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_tabs-components.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_grid-component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_grid-component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_primary-component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_primary-component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_slick.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_slick.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_tabs-components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_tabs-components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_video-block-component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_video-block-component.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46187174">
+    <splitter split-orientation="horizontal" split-proportion="0.49815497">
       <split-first>
         <leaf>
           <file leaf-file-name="_grid-component.scss" pinned="false" current-in-tab="false">
@@ -75,29 +74,41 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+                <state relative-caret-position="257">
+                  <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_tabs-components.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_tabs-components.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_tabs-components.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+                <state relative-caret-position="121">
+                  <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#471#485#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_product-component.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/_product-component.scss">
+          <file leaf-file-name="_video-block-component.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/_video-block-component.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="53" />
+                <state relative-caret-position="308">
+                  <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_slick.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/_slick.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="281">
+                  <caret line="125" column="1" lean-forward="true" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -132,9 +143,10 @@
           <file leaf-file-name="music.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/music.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="87">
-                  <caret line="88" column="44" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="44" />
+                <state relative-caret-position="277">
+                  <caret line="98" column="55" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="55" />
                   <folding>
+                    <element signature="n#figure#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
@@ -208,9 +220,11 @@
         <option value="$PROJECT_DIR$/scss/_grid-component.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/scss/_primary-component.scss" />
-        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/scss/_slick.scss" />
+        <option value="$PROJECT_DIR$/scss/_video-block-component.scss" />
         <option value="$PROJECT_DIR$/music.html" />
         <option value="$PROJECT_DIR$/scss/_tabs-components.scss" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -249,11 +263,6 @@
             <path>
               <item name="Sidd" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sidd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sidd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sidd" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sidd" type="b2602c69:ProjectViewProjectNode" />
@@ -303,12 +312,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542913471323</updated>
-      <workItem from="1542913474021" duration="42779000" />
+      <workItem from="1542913474021" duration="65448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42779000" />
+    <option name="totallyTimeSpent" value="65448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -321,7 +330,7 @@
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.14610389" />
       <window_info id="Gulp" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.12708019" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18003026" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -345,11 +354,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scss/_accordion-component.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_slick.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2491" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_accordion-component.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -558,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -579,11 +576,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_slick.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="125" column="1" lean-forward="true" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_video-block-component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/music.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="88" column="44" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="44" />
+        <state relative-caret-position="277">
+          <caret line="98" column="55" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="55" />
           <folding>
+            <element signature="n#figure#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
@@ -591,8 +603,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_tabs-components.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="121">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="e#471#485#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
         </state>
       </provider>
     </entry>

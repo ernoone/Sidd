@@ -47,6 +47,13 @@ $(document).ready(function(){
         items:5
     });
 
+    $(".album-list-js").owlCarousel({
+        loop:true,
+        nav :true,
+        dots: false,
+        items:4,
+    });
+
     $("ul.tabs-caption").on("click", "li:not(.active)", function() {
         $(this)
             .addClass("active")
