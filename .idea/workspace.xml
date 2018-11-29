@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e5b740-0ac4-461f-9dd4-ffcabf273ec2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_faq-component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/bio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_accordion-component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_accordion-component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_primary-component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_primary-component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_form-component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_form-component.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,11 +59,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_faq-component.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_faq-component.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_faq-component.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="377">
-                  <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+                <state relative-caret-position="139">
+                  <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -92,11 +86,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_form-component.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_form-component.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/_form-component.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="444">
-                  <caret line="185" column="13" selection-start-line="185" selection-start-column="13" selection-end-line="185" selection-end-column="13" />
+                <state relative-caret-position="241">
+                  <caret line="209" column="29" lean-forward="true" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
                   <folding>
                     <element signature="e#659#805#0" />
                     <element signature="e#814#1063#0" />
@@ -130,6 +124,19 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/login.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="309">
+                  <caret line="75" column="60" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="60" />
+                  <folding>
+                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="bio.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bio.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -150,7 +157,7 @@
             <entry file="file://$PROJECT_DIR$/faq.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="447">
-                  <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+                  <caret line="171" lean-forward="true" selection-end-line="209" selection-end-column="7" />
                   <folding>
                     <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -163,7 +170,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_icon-font.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_icon-font.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_icon-font.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="221">
@@ -205,8 +212,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -239,7 +246,6 @@
         <option value="$PROJECT_DIR$/scss/_product-component.scss" />
         <option value="$PROJECT_DIR$/painting_open.html" />
         <option value="$PROJECT_DIR$/item-card.html" />
-        <option value="$PROJECT_DIR$/scss/_form-component.scss" />
         <option value="$PROJECT_DIR$/paintings.html" />
         <option value="$PROJECT_DIR$/scss/_slick.scss" />
         <option value="$PROJECT_DIR$/scss/_video-block-component.scss" />
@@ -255,6 +261,8 @@
         <option value="$PROJECT_DIR$/scss/_accordion-component.scss" />
         <option value="$PROJECT_DIR$/faq.html" />
         <option value="$PROJECT_DIR$/scss/_faq-component.scss" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/scss/_form-component.scss" />
       </list>
     </option>
   </component>
@@ -343,15 +351,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542913471323</updated>
-      <workItem from="1542913474021" duration="83492000" />
+      <workItem from="1542913474021" duration="85694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83492000" />
+    <option name="totallyTimeSpent" value="85694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -564,18 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_grid-component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="149" column="3" lean-forward="true" selection-start-line="149" selection-start-column="3" selection-end-line="149" selection-end-column="3" />
-          <folding>
-            <element signature="e#294#556#0" />
-            <element signature="e#1505#1767#0" />
-            <element signature="e#1865#2091#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -632,18 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_form-component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="185" column="13" selection-start-line="185" selection-start-column="13" selection-end-line="185" selection-end-column="13" />
-          <folding>
-            <element signature="e#659#805#0" />
-            <element signature="e#814#1063#0" />
-            <element signature="e#1073#1128#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -665,10 +650,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_icon-font.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/faq.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+          <caret line="171" lean-forward="true" selection-end-line="209" selection-end-column="7" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -680,17 +672,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_icon-font.scss">
+    <entry file="file://$PROJECT_DIR$/scss/_grid-component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="172">
+          <caret line="149" column="3" lean-forward="true" selection-start-line="149" selection-start-column="3" selection-end-line="149" selection-end-column="3" />
+          <folding>
+            <element signature="e#294#556#0" />
+            <element signature="e#1505#1767#0" />
+            <element signature="e#1865#2091#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_faq-component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="139">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="75" column="60" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="60" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_form-component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="209" column="29" lean-forward="true" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
+          <folding>
+            <element signature="e#659#805#0" />
+            <element signature="e#814#1063#0" />
+            <element signature="e#1073#1128#0" />
+          </folding>
         </state>
       </provider>
     </entry>

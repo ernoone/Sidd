@@ -185,3 +185,57 @@
   align-items: center;
   width: 80%;
 }
+
+.authorization-form{
+  padding: 40px 0 70px;
+  background-color: #eff0f1;
+  .form-wrap{
+    max-width: 423px;
+    margin: 0 auto;
+    form{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      >*{
+        margin-bottom: 24px;
+      }
+      input{
+        font-size: 17px;
+        color: #000;
+        background-color: transparent;
+        border: 0;
+      }
+      .input-wrap{
+        width: 100%;
+        border-bottom: 1px solid #a7a8a8;
+        position: relative;
+        margin-bottom: 35px;
+        padding-bottom: 18px;
+        &:before{
+          content: attr(data-placeholder);
+          position: absolute;
+          left: 0;
+          top: 30%;
+          font-size: 17px;
+          color: rgba(0,0,0, 0.8);
+          transform: translateY(-50%);
+        }
+        &.error{
+          .error-message{
+            opacity: 1;
+          }
+        }
+      }
+      .error-message{
+        opacity: 0;
+        position: absolute;
+        bottom: -20px;
+        right: 0;
+        font-size: 12px;
+        color: #d50000;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
