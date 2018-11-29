@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e5b740-0ac4-461f-9dd4-ffcabf273ec2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_form-component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_form-component.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,14 +13,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49815497">
+    <splitter split-orientation="horizontal" split-proportion="0.53597784">
       <split-first>
         <leaf>
           <file leaf-file-name="_grid-component.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_grid-component.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="172">
-                  <caret line="149" column="3" lean-forward="true" selection-start-line="149" selection-start-column="3" selection-end-line="149" selection-end-column="3" />
+                <state relative-caret-position="155">
+                  <caret line="148" column="18" lean-forward="true" selection-start-line="148" selection-start-column="18" selection-end-line="148" selection-end-column="18" />
                   <folding>
                     <element signature="e#294#556#0" />
                     <element signature="e#1505#1767#0" />
@@ -89,8 +87,8 @@
           <file leaf-file-name="_form-component.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/_form-component.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
-                  <caret line="209" column="29" lean-forward="true" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
+                <state relative-caret-position="122">
+                  <caret line="76" column="14" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="14" />
                   <folding>
                     <element signature="e#659#805#0" />
                     <element signature="e#814#1063#0" />
@@ -124,11 +122,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="registration.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/registration.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="71">
+                  <caret line="75" column="45" lean-forward="true" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+                  <folding>
+                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/login.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="309">
-                  <caret line="75" column="60" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="60" />
+                <state relative-caret-position="173">
+                  <caret line="67" column="31" lean-forward="true" selection-end-line="123" selection-end-column="7" />
                   <folding>
                     <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -263,6 +274,7 @@
         <option value="$PROJECT_DIR$/scss/_faq-component.scss" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/scss/_form-component.scss" />
+        <option value="$PROJECT_DIR$/registration.html" />
       </list>
     </option>
   </component>
@@ -285,7 +297,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="745" />
@@ -301,11 +313,6 @@
             <path>
               <item name="Sidd" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sidd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sidd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sidd" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,15 +358,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542913471323</updated>
-      <workItem from="1542913474021" duration="85694000" />
+      <workItem from="1542913474021" duration="86459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85694000" />
+    <option name="totallyTimeSpent" value="86459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -672,18 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_grid-component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="149" column="3" lean-forward="true" selection-start-line="149" selection-start-column="3" selection-end-line="149" selection-end-column="3" />
-          <folding>
-            <element signature="e#294#556#0" />
-            <element signature="e#1505#1767#0" />
-            <element signature="e#1865#2091#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_faq-component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -693,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="75" column="60" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="60" />
+        <state relative-caret-position="173">
+          <caret line="67" column="31" lean-forward="true" selection-end-line="123" selection-end-column="7" />
           <folding>
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -702,14 +697,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_grid-component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="148" column="18" lean-forward="true" selection-start-line="148" selection-start-column="18" selection-end-line="148" selection-end-column="18" />
+          <folding>
+            <element signature="e#294#556#0" />
+            <element signature="e#1505#1767#0" />
+            <element signature="e#1865#2091#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_form-component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="209" column="29" lean-forward="true" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
+        <state relative-caret-position="122">
+          <caret line="76" column="14" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="14" />
           <folding>
             <element signature="e#659#805#0" />
             <element signature="e#814#1063#0" />
             <element signature="e#1073#1128#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="75" column="45" lean-forward="true" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
