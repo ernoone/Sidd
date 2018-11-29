@@ -47,13 +47,15 @@
     margin-right: 4px;
     &:last-child{margin-right: 0;}
     &.active{
-      span {box-shadow: 0 0 0 1px #a7a8a8;}
+      span,
+      a{box-shadow: 0 0 0 1px #a7a8a8;}
     }
     &:hover{
       color: rgba(0,0,0, 0.7);
     }
   }
-  span {
+  span,
+  a{
     cursor: pointer;
     display: inline-block;
     padding: 12px 23px;

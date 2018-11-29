@@ -108,7 +108,7 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-var acc = document.getElementsByClassName("accordion");
+var acc = document.getElementsByClassName("accordion-js");
 var i;
 
 for (i = 0; i < acc.length; i++) {

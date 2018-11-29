@@ -153,6 +153,26 @@ h4 {
   line-height: 1;
   margin: 0; }
 
+.header-decoration {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center; }
+  .header-decoration:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -9999px;
+    right: -9999px;
+    background-color: #d2d2d2;
+    height: 1px;
+    transform: translateY(-50%); }
+  .header-decoration h3 {
+    padding: 0 15px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1; }
+
 section p {
   font-size: 17px;
   color: rgba(0, 0, 0, 0.8); }
@@ -1008,11 +1028,13 @@ section p {
     margin-right: 4px; }
     .filter-switchers li:last-child {
       margin-right: 0; }
-    .filter-switchers li.active span {
+    .filter-switchers li.active span,
+    .filter-switchers li.active a {
       box-shadow: 0 0 0 1px #a7a8a8; }
     .filter-switchers li:hover {
       color: rgba(0, 0, 0, 0.7); }
-  .filter-switchers span {
+  .filter-switchers span,
+  .filter-switchers a {
     cursor: pointer;
     display: inline-block;
     padding: 12px 23px;
@@ -1948,40 +1970,70 @@ form {
     .born-section .arrows-nav-btn .next-btn {
       display: block; }
 
-.accordion {
+.accordion-js {
   background-color: #fff;
-  padding: 45px 0;
-  font-size: 30px;
   line-height: 1;
   color: #000;
   font-weight: 100;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-  border: 1px solid #e8e8e8;
-  border-width: 1px 0;
-  outline: none;
   transition: all 0.4s;
   display: flex;
-  align-items: center; }
-  .accordion .arrow {
+  align-items: center;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+  border: 0; }
+  .accordion-js .arrow {
     width: 28px;
     height: 28px;
+    border-radius: 50%;
+    overflow: hidden;
     background: url("../images/svg/arrow8.svg") no-repeat;
     margin-right: 20px;
     transition: all 0.4s; }
-  .accordion:hover .arrow {
+  .accordion-js:hover .arrow {
     background: url("../images/svg/arrow8_hover.svg") no-repeat; }
+  .accordion-js.active .arrow {
+    background: url("../images/svg/arrow7.svg") no-repeat; }
+
+.accordion {
+  padding: 45px 0;
+  font-size: 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  border: 1px solid #e8e8e8;
+  border-width: 1px 0; }
+  .accordion .arrow {
+    width: 28px;
+    height: 28px; }
   .accordion.active {
     border-bottom: 0; }
-    .accordion.active .arrow {
-      background: url("../images/svg/arrow7.svg") no-repeat; }
 
 .panel {
   padding: 0 20px 50px;
   background-color: white;
   display: none;
   overflow: hidden; }
+
+.accordion-2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  padding: 20px; }
+  .accordion-2.active {
+    background-color: #eff0f1; }
+    .accordion-2.active .arrow {
+      background: #fff url("../images/svg/arrow7.svg") no-repeat; }
+
+.accordion-block {
+  padding-bottom: 90px; }
+
+.panel-2 {
+  padding: 0 67px 38px;
+  background-color: #eff0f1;
+  display: none;
+  overflow: hidden;
+  font-size: 17px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8); }
 
 .grid-section,
 .grid-section-2 {
@@ -2262,6 +2314,35 @@ form {
 
 .iframe-wrapper {
   padding: 50px 0; }
+
+.faq-section {
+  padding: 43px 0;
+  background-color: #fff; }
+
+.support-section {
+  padding-top: 143px;
+  position: relative; }
+  .support-section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    background-color: #eff0f1; }
+  .support-section:after {
+    content: '\e909';
+    position: absolute;
+    padding: 22px;
+    top: 28px;
+    left: 50%;
+    background-color: #000;
+    font-family: 'moon';
+    font-size: 23px;
+    line-height: 1;
+    color: #fff;
+    box-shadow: 0 0 0 17px #eff0f1;
+    transform: translateX(-50%); }
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
   .hero-section-slide {

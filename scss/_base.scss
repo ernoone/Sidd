@@ -70,6 +70,29 @@ h4{
   margin: 0;
 }
 
+.header-decoration{
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -9999px;
+    right: -9999px;
+    background-color: #d2d2d2;
+    height: 1px;
+    transform: translateY(-50%);
+  }
+  h3{
+    padding: 0 15px;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+}
+
 section{
   p{
     font-size: 17px;

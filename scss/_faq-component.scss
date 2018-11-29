@@ -1,0 +1,32 @@
+.faq-section{
+  padding: 43px 0;
+  background-color: #fff;
+}
+
+.support-section{
+  padding-top: 143px;
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    background-color: #eff0f1;
+  }
+  &:after{
+    content: '\e909';
+    position: absolute;
+    padding: 22px;
+    top: 28px;
+    left: 50%;
+    background-color: #000;
+    font-family: 'moon';
+    font-size: 23px;
+    line-height: 1;
+    color: #fff;
+    box-shadow: 0 0 0 17px #eff0f1;
+    transform: translateX(-50%);
+  }
+}

@@ -1,22 +1,21 @@
-.accordion {
+.accordion-js{
   background-color: #fff;
-  padding: 45px 0;
-  font-size: 30px;
   line-height: 1;
   color: #000;
   font-weight: 100;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-  border: 1px solid #e8e8e8;
-  border-width: 1px 0;
-  outline: none;
   transition:all 0.4s;
   display: flex;
   align-items: center;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+  border: 0;
   .arrow{
     width: 28px;
     height: 28px;
+    border-radius: 50%;
+    overflow: hidden;
     background: url("../images/svg/arrow8.svg") no-repeat;
     margin-right: 20px;
     transition:all 0.4s;
@@ -25,10 +24,23 @@
     .arrow{background: url("../images/svg/arrow8_hover.svg") no-repeat;}
   }
   &.active{
-    border-bottom: 0;
     .arrow{
       background: url("../images/svg/arrow7.svg") no-repeat;
     }
+  }
+}
+.accordion {
+  padding: 45px 0;
+  font-size: 30px;
+  font-family: $main-font-family;
+  border: 1px solid #e8e8e8;
+  border-width: 1px 0;
+  .arrow{
+    width: 28px;
+    height: 28px;
+  }
+  &.active{
+    border-bottom: 0;
   }
 }
 .panel {
@@ -36,4 +48,30 @@
   background-color: white;
   display: none;
   overflow: hidden;
+}
+
+.accordion-2 {
+  font-family: $main-font-family;
+  font-size: 20px;
+  padding: 20px;
+  &.active {
+    background-color: #eff0f1;
+    .arrow {
+      background: #fff url("../images/svg/arrow7.svg") no-repeat;
+    }
+  }
+}
+
+.accordion-block{
+  padding-bottom: 90px;
+}
+
+.panel-2{
+  padding: 0 67px 38px;
+  background-color: #eff0f1;
+  display: none;
+  overflow: hidden;
+  font-size: 17px;
+  line-height: 1;
+  color: rgba(0,0,0, 0.8);
 }
