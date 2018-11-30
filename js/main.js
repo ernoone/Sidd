@@ -38,6 +38,7 @@ $(document).ready(function(){
     $('.currency-select-js').niceSelect();
     $('.select-js').niceSelect();
     $('.filter-select').niceSelect();
+    $('.select-2').niceSelect();
 
     $(".owl-carousel").owlCarousel({
         margin:1,

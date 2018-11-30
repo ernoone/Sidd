@@ -1,6 +1,23 @@
 .tabs-section{
   background-color: #eff0f1;
 }
+
+.profile-section{
+  .tabs-content{
+    padding: 0;
+    background-color: #eff0f1;
+  }
+  .header-wrapper{
+    margin-bottom: 26px;
+    color: rgba(0,0,0, 0.8);
+    h3{margin-bottom: 22px;}
+  }
+  .text{
+    margin-bottom: 86px;
+    color: rgba(0,0,0, 0.8);
+  }
+}
+
 .tabs-caption{
   justify-content: center;
   padding-bottom: 20px;

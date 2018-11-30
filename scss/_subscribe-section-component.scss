@@ -20,12 +20,41 @@
   }
 }
 
+.subscribe-active{
+  background-color: #fff;
+  padding: 36px 9999px;
+  margin: 0 -9999px 50px;
+  .subscribe-active-info{
+    font-size: 20px;
+    line-height: 1;
+    color: #585858;
+    padding-left: 54px;
+    position: relative;
+    .active-values{
+      padding: 0 18px;
+      font-size: 30px;
+      color: #000;
+    }
+  }
+}
+
 .subscribe-list{
   display: flex;
   justify-content: center;
   .subscribe-list-item{
     margin-right: 50px;
     &:last-child{margin-right: 0;}
+    &.active{
+      .label{
+        background-color: #fff;
+        color: #000;
+      }
+      .tile{background-color: #000;}
+      .price{
+        color: #fff;
+        .value{color: #fff;}
+      }
+    }
   }
   .label{
     left: auto;
