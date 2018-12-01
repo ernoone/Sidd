@@ -240,3 +240,28 @@ section{
     transition: all 0.5s;
   }
 }
+
+.section-404{
+  padding: 130px 0 170px;
+  background-color: #eff0f1;
+  .container{position: relative;}
+  .big-text{
+    margin-right: 305px;
+    font-size: 300px;
+    font-weight: 100;
+    color: #000;
+    position: relative;
+    z-index: 1;
+  }
+  .info-block{
+    position: absolute;
+    bottom: -70px;
+    right: 132px;
+    width: 450px;
+    padding: 35px 45px;
+    background-color: #fff;
+    text-align: left;
+    h3{margin-bottom: 30px;}
+    p{margin-bottom: 25px;}
+  }
+}

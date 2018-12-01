@@ -299,6 +299,31 @@ section p {
     transform: translate(-50%, -50%);
     transition: all 0.5s; }
 
+.section-404 {
+  padding: 130px 0 170px;
+  background-color: #eff0f1; }
+  .section-404 .container {
+    position: relative; }
+  .section-404 .big-text {
+    margin-right: 305px;
+    font-size: 300px;
+    font-weight: 100;
+    color: #000;
+    position: relative;
+    z-index: 1; }
+  .section-404 .info-block {
+    position: absolute;
+    bottom: -70px;
+    right: 132px;
+    width: 450px;
+    padding: 35px 45px;
+    background-color: #fff;
+    text-align: left; }
+    .section-404 .info-block h3 {
+      margin-bottom: 30px; }
+    .section-404 .info-block p {
+      margin-bottom: 25px; }
+
 /* Slider */
 .slick-slider {
   position: relative;
