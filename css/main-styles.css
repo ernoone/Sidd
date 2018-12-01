@@ -683,30 +683,43 @@ section p {
         color: #000;
         background-color: transparent;
         border: 0; }
-      .authorization-form .form-wrap form .input-wrap {
-        width: 100%;
-        border-bottom: 1px solid #a7a8a8;
-        position: relative;
-        margin-bottom: 35px;
-        padding-bottom: 18px; }
-        .authorization-form .form-wrap form .input-wrap:before {
-          content: attr(data-placeholder);
-          position: absolute;
-          left: 0;
-          top: 30%;
-          font-size: 17px;
-          color: rgba(0, 0, 0, 0.8);
-          transform: translateY(-50%); }
-        .authorization-form .form-wrap form .input-wrap.error .error-message {
-          opacity: 1; }
-      .authorization-form .form-wrap form .error-message {
-        opacity: 0;
-        position: absolute;
-        bottom: -20px;
-        right: 0;
-        font-size: 12px;
-        color: #d50000;
-        transition: all 0.5s; }
+
+.input-wrap {
+  width: 100%;
+  border-bottom: 1px solid #a7a8a8;
+  position: relative;
+  margin-bottom: 35px;
+  padding-bottom: 18px; }
+  .input-wrap:before {
+    content: attr(data-placeholder);
+    position: absolute;
+    left: 0;
+    top: 30%;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    transform: translateY(-50%); }
+  .input-wrap.error .error-message {
+    opacity: 1; }
+
+.error-message {
+  opacity: 0;
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  font-size: 12px;
+  color: #d50000;
+  transition: all 0.5s; }
+
+.ask-q {
+  padding: 50px 0;
+  background-color: #fff; }
+  .ask-q form {
+    max-width: 847px;
+    margin: 0 auto; }
+  .ask-q textarea {
+    border: none;
+    margin: 0;
+    height: 80px; }
 
 .hero-outer .breadcrumb-outer .container {
   position: relative; }
@@ -1592,20 +1605,33 @@ section p {
         color: rgba(0, 0, 0, 0.8); }
     .subscribe-section .qa-link strong {
       font-size: 24px; }
+  .subscribe-section .subscribe-active + .header-wrapper {
+    margin-bottom: 60px; }
 
 .subscribe-active {
   background-color: #fff;
   padding: 36px 9999px;
-  margin: 0 -9999px 50px; }
+  margin: 0 -9999px 45px; }
   .subscribe-active .subscribe-active-info {
+    max-width: 571px;
+    margin: 0 auto 35px;
     font-size: 20px;
     line-height: 1;
     color: #585858;
     padding-left: 54px;
     position: relative; }
+    .subscribe-active .subscribe-active-info:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url("../images/checkmark.png") no-repeat;
+      width: 39px;
+      height: 39px; }
     .subscribe-active .subscribe-active-info .active-values {
       padding: 0 18px;
       font-size: 30px;
+      font-weight: 100;
       color: #000; }
 
 .subscribe-list {
@@ -1812,9 +1838,13 @@ section p {
   display: flex;
   flex-direction: column;
   font-size: 17px;
-  color: rgba(0, 0, 0, 0.8); }
+  color: rgba(0, 0, 0, 0.8);
+  position: relative; }
   .comment-block .comment-item.lavel-1 {
     padding-left: 66px; }
+  .comment-block .comment-item.open-reply .replay-comment-block {
+    max-height: 211px;
+    padding: 35px 65px; }
   .comment-block .comment-item .comment-head {
     position: relative;
     margin-bottom: 23px; }
@@ -1922,6 +1952,37 @@ form {
   form textarea {
     resize: none;
     margin-bottom: 17px; }
+
+.replay-comment-block {
+  width: 100%;
+  background-color: #fff;
+  padding: 0;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.5s;
+  z-index: 1; }
+  .replay-comment-block textarea {
+    margin-bottom: 0;
+    border: 0;
+    height: 33px; }
+  .replay-comment-block .replay-comment-footer {
+    display: flex;
+    justify-content: flex-end; }
+  .replay-comment-block .btn-set {
+    width: 55%;
+    margin-bottom: 0;
+    justify-content: space-between; }
+  .replay-comment-block .reset {
+    background: none;
+    padding: 0;
+    border: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    color: #000;
+    cursor: pointer; }
+    .replay-comment-block .reset:hover {
+      text-decoration: underline; }
 
 .double-tile-wrap {
   display: flex; }
