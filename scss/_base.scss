@@ -265,3 +265,28 @@ section{
     p{margin-bottom: 25px;}
   }
 }
+
+.back-to-top{
+  position: fixed;
+  right: -22px;
+  bottom: 50px;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 34px 12px 20px;
+  border: 15px solid #fff;
+  border-width: 15px 15px 0 0;
+  transform: rotate(-90deg);
+  transition: all 0.5s;
+  z-index: 999;
+  em{
+    font-size: 11px;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    transform: rotate(90deg);
+  }
+  &:hover{
+    color: #7f7f7f;
+  }
+}
