@@ -2568,6 +2568,107 @@ form {
     box-shadow: 0 0 0 17px #eff0f1;
     transform: translateX(-50%); }
 
+.primary-section.payment-page {
+  padding-bottom: 85px; }
+
+.summary-payment-section {
+  padding: 80px 0 45px;
+  background-color: #fff;
+  position: relative; }
+  .summary-payment-section:before {
+    content: '';
+    position: absolute;
+    background: #000 url("../images/icon-wallet.png") no-repeat 50% 50%;
+    width: 28px;
+    height: 26px;
+    background-size: 28px 26px;
+    padding: 22px;
+    top: -35px;
+    left: 50%;
+    box-shadow: 0 0 0 17px #eff0f1;
+    transform: translateX(-50%); }
+  .summary-payment-section .summary-payment-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    .summary-payment-section .summary-payment-list li {
+      display: flex;
+      flex-direction: column;
+      margin-right: 15%; }
+      .summary-payment-section .summary-payment-list li:last-child {
+        margin-right: 0; }
+    .summary-payment-section .summary-payment-list .label-3 {
+      font-size: 20px;
+      line-height: 1;
+      color: #585858;
+      margin-bottom: 16px; }
+    .summary-payment-section .summary-payment-list .value {
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 100;
+      color: #000; }
+
+.payment-methods-section {
+  background-color: #eff0f1;
+  padding: 65px 0; }
+  .payment-methods-section .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
+    border-bottom: 1px solid #ddddde; }
+    .payment-methods-section .row:first-child {
+      padding-top: 0; }
+    .payment-methods-section .row:last-child {
+      padding-bottom: 0;
+      border-bottom: 0; }
+    .payment-methods-section .row .checkbox-item {
+      display: flex;
+      align-items: center; }
+      .payment-methods-section .row .checkbox-item label {
+        padding-left: 35px; }
+        .payment-methods-section .row .checkbox-item label:before {
+          top: 44%;
+          transform: translateY(-50%); }
+
+.payment-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center; }
+  .payment-list li {
+    margin-right: 40px; }
+    .payment-list li:last-child {
+      margin-right: 0; }
+    .payment-list li img {
+      width: 100%; }
+
+.tos-section {
+  background-color: #000;
+  padding: 50px 0;
+  color: #fff; }
+  .tos-section a {
+    color: #fff; }
+  .tos-section .checkbox-item {
+    margin-bottom: 35px;
+    display: flex; }
+    .tos-section .checkbox-item label {
+      padding-left: 45px; }
+      .tos-section .checkbox-item label:before {
+        border-color: #a7a8a8; }
+      .tos-section .checkbox-item label:after {
+        background-color: #fff; }
+      .tos-section .checkbox-item label:hover:before {
+        border-color: #fff; }
+    .tos-section .checkbox-item input[type="checkbox"]:checked + label:before {
+      border-color: #fff; }
+  .tos-section .btn {
+    padding: 25px 45px;
+    border: 1px solid #b2b2b2 !important; }
+
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
   .hero-section-slide {
     background: url("../images/hero-img-1@2x.jpg") no-repeat center center; } }
